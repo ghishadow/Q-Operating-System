@@ -1,6 +1,10 @@
-// ------------------------------------------------------------------------------------------------
-// pci/registry.h
-// ------------------------------------------------------------------------------------------------
+#ifndef REGISTRY_H
+#define REGISTRY_H
+
+/* ------------------------------------------------------------------------------------------------
+pci/registry.h
+added by telip007, based on OS DEV github repo
+*/ ------------------------------------------------------------------------------------------------
 
 #pragma once
 
@@ -167,3 +171,5 @@ const char *PciClassName(uint32 classCode, uint32 subclass, uint32 progIntf);
 // Data Acquisition and Signal Processing Controllers
 #define PCI_SP_DPIO                     0x1100
 #define PCI_SP_OTHER                    0x1180
+
+#endif
